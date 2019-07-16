@@ -1,4 +1,4 @@
-# TelegramGGiri
+﻿# TelegramGGiri
 
 Basic example of how to integrate your Watson chatbot with Telegram app.
 
@@ -37,7 +37,7 @@ Basic example of how to integrate your Watson chatbot with Telegram app.
 
 ### 완성본
 
-![Implemeted](./Implemented.png)
+![Implemented](./Implemented.PNG)
 bash에서
 ```
 $ npm install --save

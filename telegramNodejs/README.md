@@ -35,7 +35,15 @@ Basic example of how to integrate your Watson chatbot with Telegram app.
  - Open your Telegram app, tap _search_, and type your bot `username` that you have created. (You can also check in `@BotFather` conversation)
  - Try to sent a message!
 
+### 완성본
 
-##### NOTE: Again, rename the file `.env.example` with `.env` for the Enviroment Variables be recognized. If not, you will get an error message when try to start the server.
+![Implemeted](./Implemented.png)
+bash에서
+```
+$ npm install --save
+$ node app
+```
+1. localhost:8080 에 로컬 서버가 켜지고
+2. 텔레그램의 kkiri_bot에서 끼리 봇 이용 가능
 
 ###### This code is based on [Conversation-Telegram](https://github.com/sayurimizuguchi/conversation-telegram/) example.

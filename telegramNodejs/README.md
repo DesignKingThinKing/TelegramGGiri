@@ -1,4 +1,4 @@
-# conversation-telegram
+# TelegramGGiri
 
 Basic example of how to integrate your Watson chatbot with Telegram app.
 

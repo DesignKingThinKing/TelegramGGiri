@@ -38,4 +38,4 @@ Basic example of how to integrate your Watson chatbot with Telegram app.
 
 ##### NOTE: Again, rename the file `.env.example` with `.env` for the Enviroment Variables be recognized. If not, you will get an error message when try to start the server.
 
-###### This code is based on [Renato Leal](https://github.com/sayurimizuguchi/conversation-telegram/) example.
+###### This code is based on [Conversation-Telegram](https://github.com/sayurimizuguchi/conversation-telegram/) example.

@@ -38,11 +38,12 @@ Basic example of how to integrate your Watson chatbot with Telegram app.
 ### 완성본
 
 ![Implemented](./Implemented.PNG)
-bash에서
+
 ```
 $ npm install --save
 $ node app
 ```
+
 1. localhost:8080 에 로컬 서버가 켜지고
 2. 텔레그램의 kkiri_bot에서 끼리 봇 이용 가능
 

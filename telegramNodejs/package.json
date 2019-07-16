@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sayurimizuguchi/conversation-telegram.git"
+    "url": "git+https://github.com/DesignKingThinKing/TelegramGGiri.git"
   },
   "keywords": [
     "node.js",
@@ -18,17 +18,13 @@
     "ibm",
     "watson"
   ],
-  "author": "Sayuri Mizuguchi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sayurimizuguchi/conversation-telegram/issues"
-  },
-  "homepage": "https://github.com/sayurimizuguchi/conversation-telegram#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
-    "express": "^4.17.1",
+    "express": "4.17.1",
     "ibm-watson": "^4.2.1",
+    "mysql": "^2.17.1",
     "node-telegram-bot-api": "^0.30.0"
   }
 }

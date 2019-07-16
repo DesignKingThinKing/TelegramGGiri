@@ -8,6 +8,24 @@ const AssistantV1 = require('ibm-watson/assistant/v1');
 
 const server = express();
 
+// database dependencies
+
+const mysql = require('mysql');
+const conn=mysql.createConnection({
+	host:'localhost',
+	user:'root',
+	password:'1234',
+	database:'dktk'
+});
+
+conn.connect();
+
+conn.query('select * from user', function(err, results, fields){
+	if (err) throw err;
+	console.log('The result is', results[0].username);
+});
+
+conn.end();
 /**
  * Context object is useful to assistant cause continue the same conversation (conversation_id)
  * Port is used when starting express server
